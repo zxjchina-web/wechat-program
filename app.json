@@ -1,0 +1,39 @@
+{
+  "entryPagePath": "pages/index/index",
+  "pages": ["pages/index/index", "pages/logs/logs" ],
+  "window": {
+      "navigationBarBackgroundColor": "#ffffff",
+      "navigationBarTextStyle": "black",
+      "navigationBarTitleText": "微信接口功能演示",
+      "backgroundColor": "#eeeeee",
+      "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "position": "top",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    }, 
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "日志"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "abc"
+    }]
+},
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "关于本文件的更多信息，请参考文档 https://developers.weixin.qq.com/miniprogram/dev/framework/sitemap.html"
+    }
+  }
+}
